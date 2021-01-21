@@ -22,8 +22,8 @@ Sleep, 250
 ControlClick, %ExeSelectButton%, %TexWindowName%
 
 ; Scroll to end of list, to choose speed.exe
-ControlSend, %EXplorerFileView%, {PgDn}, %TexWindowName%
-ControlSend, %EXplorerFileView%, {PgDn}, %TexWindowName%
+ControlSend, %ExplorerFileView%, {PgDn}, %TexWindowName%
+ControlSend, %ExplorerFileView%, {PgDn}, %TexWindowName%
 ControlClick, %ExplorerExeOpenButton%, %TexWindowName%
 
 ; Browse... for textures to replace (.tpf files)
